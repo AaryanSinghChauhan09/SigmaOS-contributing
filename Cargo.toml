@@ -1,0 +1,17 @@
+[package]
+name = "sigmaos-contributing"
+version = "0.1.0"
+edition = "2021"
+authors = ["SigmaOS Project"]
+description = "Contributing guidelines"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-contributing"
+readme = "README.md"
+keywords = ["contributing", "guidelines", "docs"]
+categories = ["development-tools"]
+
+[dependencies]
+sigmaos-kernel = { version = "0.1", path = "../SigmaOS-kernel" }
+
+[profile.release]
+opt-level = 3
